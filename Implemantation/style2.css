@@ -1,0 +1,251 @@
+  #myCarousel .nav a small {
+  display: block;
+}
+
+#myCarousel .nav {
+  background: #eee;
+}
+
+#myCarousel .nav a {
+  border-radius: 0px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #337ab7;
+  line-height: 1.42857143 !important;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #337ab7;
+}
+
+header nav ul {
+  text-align: center;
+}
+
+header nav ul li {
+  text-align: center;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+header nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+header nav ul li a {
+  color: #fff;
+}
+
+
+/* layout.css Style */
+
+.upload-drop-zone {
+  height: 200px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+
+
+/* skin.css Style*/
+
+.upload-drop-zone {
+  border-style: dashed;
+  line-height: 200px;
+  text-align: center
+}
+
+.upload-drop-zone.drop {
+  color: #222;
+  border-color: #222;
+}
+
+.xaris {
+  color: black;
+}
+
+div.transbox {
+  color: #000;
+  margin: 4px;
+  background-color: #ffffff;
+  border: 1px outset grey;
+  opacity: 0.74;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
+}
+
+.back {
+  background: url(img/b.jpg);
+  background-size: 1300px 1000px;
+  */ background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-image-width: 20;
+  font-weight: bold;
+  color: #000;
+  padding: 125px 60px;
+  font-family: Montserrat, sans-serif;
+}
+
+.col-lg-4 i {
+  display: block;
+  text-align: center
+}
+
+
+/* General sizing */
+
+ul.dropdown-lr {
+  width: 250px;
+}
+
+
+/* mobile fix */
+
+@media (max-width: 768px) {
+  .dropdown-lr h3 {
+    color: #eee;
+  }
+  .dropdown-lr label {
+    color: #eee;
+  }
+}
+
+.item2 {
+  height: 150px;
+  text-align: center;
+}
+
+.item2 span {
+  font-size: large;
+  line-height: 220px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1;
+  width: 100%;
+  height: 130px;
+  background-color: #003671;
+  text-align: center;
+}
+
+.container2 {
+  margin-top: 50px;
+  color: #fff;
+  width: 100%;
+}
+
+.fa-twitter {
+  color: #000;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-youtube-play {
+  color: #e52d27;
+}
+
+.fa-rss {
+  color: #FF6600;
+}
+
+.fa-vine {
+  color: #00a478;
+}
+
+.fa-flickr {
+  color: #ff0084;
+}
+
+.fa-twitch {
+  color: #6441A5;
+}
+
+.fa-linkedin {
+  color: #007bb6;
+}
+
+.fa {
+  opacity: 0.7;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.fa:hover {
+  opacity: 1;
+  transition: 1s;
+  -webkit-transition: 1s;
+  .chevronup {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+  }
+  .slideanim {
+    visibility: hidden;
+  }
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  .div2 {}
+  /* Sweep To Top */
+  .hvr-sweep-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  .hvr-sweep-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-sweep-to-top:hover,
+  .hvr-sweep-to-top:focus,
+  .hvr-sweep-to-top:active {
+    color: #337ab7;
+  }
+  .hvr-sweep-to-top:hover:before,
+  .hvr-sweep-to-top:focus:before,
+  .hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
